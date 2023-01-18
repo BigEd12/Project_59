@@ -3,8 +3,8 @@ import requests
 import datetime
 import smtplib
 
-MY_EMAIL = "olmos.edward@gmail.com"
-MY_PASSWORD = "lshgrctaaymugbhv"
+MY_EMAIL = "YOUR-EMAIL"
+MY_PASSWORD = "YOUR-PASSWORD"
 
 response = requests.get(url="https://api.npoint.io/e35454a27b2b7398e8e7")
 all_posts = response.json()
